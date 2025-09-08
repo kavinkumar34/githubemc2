@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query Example</title>
+  <style>
+    body {
+      background-color: lightblue;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      font-size: 40px;
+      color: darkblue;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    /* 📱 When the screen width is 600px or less */
+    @media (max-width: 600px) {
+      body {
+        background-color: lightgreen;
+      }
+
+      h1 {
+        font-size: 25px;
+        color: darkgreen;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Hello, Media Queries!</h1>
+  <p>Resize the browser window to see the effect.</p>
+</body>
+</html>
